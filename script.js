@@ -219,7 +219,7 @@ function drawEbullets(){
 }
 
 function keyPressed(){
-    if (keyCode == UP_ARROW){
+    if (keyCode == 32){
         var b = new bullet(bulletx+10,bullety,20,20);
         bullets.push(b); 
     }
